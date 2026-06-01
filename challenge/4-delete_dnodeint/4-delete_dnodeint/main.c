@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 #include "lists.h"
 
@@ -65,5 +64,6 @@ int main(void)
 	delete_dnodeint_at_index(&head, 0);
 	print_dlistint(head);
 	free_dlistint(head);
+
 	return (0);
 }
